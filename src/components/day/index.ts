@@ -1,1 +1,3 @@
-export  { DayCell } from './day-cell'
+import { DayCell } from "./day-cell";
+
+export default DayCell;

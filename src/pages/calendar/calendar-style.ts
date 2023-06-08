@@ -10,7 +10,7 @@ const CalendarBorder = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 100fr);
 
-  border: solid 10px blue;
+  border: solid 2px blue;
   border-radius: 10px;
 `;
 
