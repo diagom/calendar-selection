@@ -1,15 +1,14 @@
 import styled from "styled-components";
 
-const dayBax = styled.div`
-  height: 8vw;
+const weekCell = styled.div`
+  height: 3vw;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  border-bottom: solid 2px orange;
   border-radius: 10px;
-  margin: 5px 10px;
+  margin: 10px;
 `;
 
-export const Style = { dayBax };
+export const Style = { weekCell };

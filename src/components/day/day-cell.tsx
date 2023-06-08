@@ -2,7 +2,7 @@ import React from "react";
 import { Style } from "./day-style.ts";
 
 interface DayCell {
-  day: string;
+  day: number;
   number?: number;
 }
 
