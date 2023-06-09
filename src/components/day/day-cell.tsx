@@ -3,13 +3,14 @@ import { Style } from "./day-style.ts";
 
 interface DayCell {
   day: number;
-  number?: number;
+  clickAction: Function;
+  isSelected: boolean;
 }
 
-export const DayCell = ({ day }: DayCell) => {
+export const DayCell = ({ day, clickAction, isSelected }: DayCell) => {
   return (
     <>
-      <Style.dayBax>
+      <Style.dayBax theme={{ isSelected }} onClick={() => clickAction()}>
         <span>{day}</span>
       </Style.dayBax>
     </>
